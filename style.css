@@ -49,6 +49,12 @@
 .dg-card-body p {
     font-size: 1vw;
 }
+.dg-company img{
+    width: 10vw;
+}
+footer{
+    margin-top: 150px;
+}
 
 @media only screen and (max-width: 576px) {
     .course-img {
@@ -58,13 +64,20 @@
     .dg-hide {
         display: none;
     }
-    .dg-working{
+
+    .dg-working {
         display: flex;
+    }
+    .dg-company {
+        display: none;
     }
 }
 
 @media only screen and (max-width: 820px) and (min-width:576px) {
     .dg-hide {
+        display: none;
+    }
+    .dg-company {
         display: none;
     }
 }
