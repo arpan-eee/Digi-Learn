@@ -1,0 +1,70 @@
+.dg-nav {
+    font-size: 1.5vw;
+}
+
+.dg-car {
+    opacity: 0.45;
+}
+
+.dg-car-caption {
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+.dg-car-caption h1 {
+    font-size: 5vw;
+    padding-bottom: 2vw;
+}
+
+.dg-car-caption p {
+    font-size: 1.75vw;
+}
+
+.dg-btn {
+    color: white;
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+
+.dg-body-caption {
+    margin-top: 10vw;
+}
+
+.dg-body-caption h1 {
+    font-size: 4vw;
+}
+
+.dg-body-caption p {
+    font-size: 1.5vw;
+}
+
+.dg-courses {
+    flex-direction: row;
+}
+
+.dg-card-body h5 {
+    font-size: 2vw;
+}
+
+.dg-card-body p {
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 576px) {
+    .course-img {
+        width: 100%;
+    }
+
+    .dg-hide {
+        display: none;
+    }
+    .dg-working{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 820px) and (min-width:576px) {
+    .dg-hide {
+        display: none;
+    }
+}
